@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anfahrt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo4.png" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menü
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Biketypen</a></li>
+                        <li><a class="dropdown-item" href="#">Biketrails</a></li>
+                        <li><a class="dropdown-item" href="#">Touren & Trails</a></li>
+                        <li><a class="dropdown-item" href="#">Bergbahnen</a></li>
+                        <li><a class="dropdown-item" href="#">Events</a></li>
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.srf.ch/meteo/wetter/Lenzerheide/46.7294,9.5566?geolocationNameId=6793505c10a363849f2a138a41494613">Wetter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Live</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsletter.html">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anfahrt.html">Anfahrt</a>
+                </li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Suche</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Anfahrt-->
+<div class="container-fluid padding connect">
+    <div class="row text-center padding">
+        <div class="col-12 anfahrt-title">
+          <h2>Bike Kingdom Anfahrt</h2>
+          <h5>Voa Principala 37, CH-7078 Lenzerheide</h5>
+        </div>
+    </div>
+</div>
+
+<!-- Map -->
+<section class="content-block">
+    <div class="container">
+        <div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832678.5697321045!2d7.846819155570421!3d46.71186354248035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47849582ff6cc379%3A0xeb4a8369dccfc3b5!2sLenzerheide%2C+7078+Vaz%2FObervaz!5e0!3m2!1sde!2sch!4v1560867620138!5m2!1sde!2sch" width="100%" height="500" allowtransparency="true" allowfullscreen="" frameborder="0"></iframe>
+        </div>
+        <script>
+            window.setTimeout(function() {
+                console.log('555555');
+
+                //$('iframe').load(function(){$('html,body').animate({scrollTop: 0}, 'slow');});
+            }, 2000);
+        </script>
+    </div>
+</section>
+
+
+<!-- Connect -->
+<div class="container-fluid padding connect">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="https://www.facebook.com/bike.kingdom/"><i class="fab fa-facebook"></i></a>
+            <a href="https://open.spotify.com/user/6zidr1lmbhkl5sg5x3kc7eybq?si=bd873492a08d477e&nd=1"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/bike.kingdom/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/lenzerheidefan"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="img/logo4.png" alt="...">
+                <hr class="light">
+                <p>T +41 81 385 57 00</p>
+                <p>info@lenzerheide.com</p>
+                <p>Voa Principala 37</p>
+                <p>CH-7078 Lenzerheide</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Unsere Partner</h5>
+                <hr class="light">
+                <p>Bergamont</p>
+                <p>Rocky Mountain</p>
+                <p>YT Industries</p>
+                <p>GoPro</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Öffnungszeiten</h5>
+                <hr class="light">
+                <p>Dienstag: 08:00 - 18:00</p>
+                <p>Mittwoch: 08:00 - 18:00</p>
+                <p>Donnerstag: 08:00 - 18:00</p>
+                <p>Freitag: 08:00 - 18:00</p>
+                <p>Samstag: 10:00 - 20:00</p>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy; Arosa Lenzerheide 2021</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
